@@ -9,7 +9,7 @@ You must have C++17 and GNU g++ 11.4.0
 ## How to run ⚙️
 
 ```bash
-    ./run.sh -f instance_path -s seed
+$ ./run.sh -f instance_path -s seed
 ```
 
 Available flags:
@@ -30,5 +30,5 @@ An auxiliary Python tool was developed to help debug the strip packing layout so
 * The color palette maps client classes: **Higher classes** are closer to **red**, and **lower classes** are closer to **violet**.
 
 ```bash
-    ./debug.py solution_file_path
+$ ./debug.py solution_file_path
 ```
