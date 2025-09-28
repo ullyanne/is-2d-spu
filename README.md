@@ -9,7 +9,12 @@ You must have C++17 and GNU g++ 11.4.0
 ## How to run ⚙️
 
 ```bash
-$ ./run.sh -f instance_path -s seed
+$ ./is -f instance_path -s seed
+```
+or
+
+```bash
+$ ./run.sh
 ```
 
 Available flags:
